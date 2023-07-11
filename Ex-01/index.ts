@@ -1,1 +1,1 @@
-console.log("Typescript");
+console.log("Ammar");
