@@ -17,7 +17,7 @@ console.log(16/2);
 let favNum: number = 5;
 console.log(`My Favourite Number is ${favNum}`);
 
-//These are Typescript Assignments
+//These are Typescript Assignments by Muhammad Ammar Masood
 
 
 
