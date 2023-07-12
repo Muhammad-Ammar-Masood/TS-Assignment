@@ -3,6 +3,8 @@ const friendsName: string[] = ["Ahmed", "Shayan", "Abdul Moiz", "Ali"];
 for (const _name in friendsName) {
     console.log(friendsName[_name]);
 }
+console.log("\n");
+ 
 
 
 
@@ -10,7 +12,8 @@ for (const _name in friendsName) {
 for (const _name in friendsName) {
     console.log(`Greetings! ${friendsName[_name]}`);
 }
-
+console.log("\n");
+ 
 
 
 //--------------------------------------EX-13----------------------------------------------------//
