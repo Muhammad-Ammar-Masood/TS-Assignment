@@ -39,3 +39,41 @@ for (let i = 0; i <= guest_list.length; i++) {
     guest_list.pop();
 }
 console.log(guest_list); //EMPTY ARRAY
+console.log("\n");
+//--------------------------------------EX-18----------------------------------------------------//
+const fav_places = ["England", "Australia", "China", "USA", "Spain"];
+console.log("Original Order:");
+for (const place in fav_places) {
+    console.log(fav_places[place]);
+}
+console.log("\n");
+console.log("Alphabetical Order:");
+fav_places.sort();
+for (const place in fav_places) {
+    console.log(fav_places[place]);
+}
+console.log("\n");
+console.log("Reverse Order:");
+fav_places.reverse();
+for (const place in fav_places) {
+    console.log(fav_places[place]);
+}
+console.log("\n");
+//--------------------------------------EX-19----------------------------------------------------//
+console.log("Number of persons invited to Dinner: ", guest_list.length); // 0 becuase Array is empty in previous Ex-17
+console.log("\n");
+//--------------------------------------EX-20----------------------------------------------------//
+const citiesArr = ["Lahore", "Karachi", "Peshawar", "Quetta", "Faislabad"];
+console.log(citiesArr);
+console.log("\n");
+//--------------------------------------EX-21----------------------------------------------------//
+const countries_obj = {
+    cName: "Pakistan",
+    capital: "Islamabad",
+    language: "Urdu",
+    cities: citiesArr
+};
+console.log(countries_obj);
+console.log("\n");
+//--------------------------------------EX-22----------------------------------------------------//
+//ERROR
